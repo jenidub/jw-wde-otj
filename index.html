@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+       content="width=device-width, initial-scale=1.0">
+  <title>Client Website</title>
+  <!-- Your link to the CSS file will go below  -->
+  <link rel="stylesheet" href="./assets/css/style.css"> 
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <!-- Links to different sections of the website -->
+    <ul>
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header id="header">
+    <h1>Client's Name Will Go Here</h1>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <p>Who the client is and what they do will go here.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <!-- Placeholder for images/videos -->
+    <div>
+        <img src="./assets/images/gym-1.jpg" width="200px">
+        <img src="./assets/images/gym-2.jpg" width="200px">
+        <img src="./assets/images/gym-3.jpg" width="200px">
+    </div>
+    <div>
+        <video width="300" controls>
+            <source src="/assets/videos/gym-video-1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video width="300" controls>
+            <source src="/assets/videos/gym-video-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text"
+             id="name"
+             required>
+      </div>
+      <div>
+        <label for="email">Email address</label>
+        <input type="email"
+             id="email"
+             required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message"
+             rows="3"
+             required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Client Name. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
